@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,44 +6,130 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>ShutterBro — Support</title>
 <style>
+:root {
+    --charcoal: #252525;
+    --yellow: #F5D547;
+    --white: #FFFFFF;
+    --grey: #A0A0A0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    background: var(--charcoal);
+    color: var(--white);
     max-width: 720px;
-    margin: 60px auto;
-    padding: 0 24px;
+    margin: 0 auto;
+    padding: 70px 26px;
     line-height: 1.7;
-    color: #222;
 }
-h1 { margin-bottom: 8px; }
-h2 { margin-top: 32px; }
-.muted { color: #777; }
-a { color: #222; }
+
+.logo {
+    color: var(--yellow);
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: -1px;
+    margin-bottom: 4px;
+}
+
+.tagline {
+    color: var(--grey);
+    font-size: 14px;
+    margin-bottom: 55px;
+}
+
+h2 {
+    color: var(--yellow);
+    font-size: 19px;
+    margin-top: 38px;
+    margin-bottom: 12px;
+}
+
+p, li {
+    font-size: 15px;
+    color: #E0E0E0;
+}
+
+ul {
+    padding-left: 22px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+a {
+    color: var(--yellow);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.divider {
+    border: 0;
+    border-top: 1px solid #444444;
+    margin: 45px 0 25px;
+}
+
+.footer {
+    color: var(--grey);
+    font-size: 12px;
+}
 </style>
 </head>
+
 <body>
 
-<h1>ShutterBro</h1>
-<p class="muted">Support</p>
+<div class="logo">ShutterBro.</div>
+<div class="tagline">Shoot better. Score better.</div>
 
 <h2>Need a hand?</h2>
-<p>Having trouble with ShutterBro? We're happy to help.</p>
+<p>
+Having trouble with ShutterBro? We're happy to help.
+Here's a quick guide to getting started.
+</p>
 
 <h2>How ShutterBro works</h2>
-<p>ShutterBro helps you compose photographs using a reference image overlay.</p>
+<p>
+ShutterBro helps you compose better photographs using
+a reference image overlay.
+</p>
+
 <ul>
 <li>Select a reference image from your Photos library.</li>
-<li>Use the image overlay to help frame your photograph.</li>
-<li>Capture your photograph using the camera.</li>
+<li>Use the transparent overlay to help frame your shot.</li>
+<li>Capture your photograph with the camera.</li>
 <li>Save your finished photograph to your Photos library.</li>
 </ul>
 
 <h2>Camera and Photos Access</h2>
-<p>ShutterBro needs camera access to take photographs and Photos access to select reference images and save your photographs.</p>
+<p>
+ShutterBro uses camera access to capture photographs
+and Photos access to select reference images and save
+your finished photographs.
+</p>
 
-<h2>Contact Us</h2>
-<p>For support, please contact us through the developer contact information listed on the ShutterBro App Store page.</p>
+<h2>Still need help?</h2>
+<p>
+For support enquiries, please contact us through the
+developer contact information listed on the ShutterBro
+App Store page.
+</p>
 
-<p><a href="index.html">Privacy Policy</a></p>
+<hr class="divider">
+
+<p>
+<a href="index.html">Privacy Policy</a>
+</p>
+
+<div class="footer">
+© 2026 Shutterbro. All rights reserved.
+</div>
 
 </body>
 </html>
